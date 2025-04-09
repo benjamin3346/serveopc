@@ -1,2 +1,8 @@
-fungsi dari hidencmd.vbs adalah menyembunyikan jendela cmd openssh client
-jika tanpa hidencmd.vbs maka akan ada dua jendela cmd pertama jendela script serveopc.bat dan jendela openssh client
+jika menjalankan file serveopc.bat tanpa kedua file vbs maka akan tampil 2 jendela cmd 
+yang pertama yaitu jendela cmd openssh client dan jendela serveopc itu sendiri
+untuk menyembuntikan ke dua jendela cmd tadi di buatlah kedua file vbs
+vbs yang pertama yaitu hidenopensshclient.vbs untuk menyembunyikan jendela cmd openssh cliet dan hidenserveopc.vbs
+untuk menyembunyikan jendela cmd serveopc.bat
+
+
+agar script serveo pc berjalan otomatis saat windows booting maka buatkan shortcut hidenserveopc.vbs di SHELL:STARTUP
