@@ -1,0 +1,4 @@
+script serveopc.sh adalah untuk mengirim hasil dari serveo ke telegram bot, sebelum menjalankan serveopc.sh pastikan pc kalian sudah terinstall git bash
+agar serveopc.sh berjalan otomatis saat windows booting buat file bat dengan nama start.bat dan isi dengan 
+@echo off start "" "C:\Program Files\Git\bin\bash.exe" -c "/c/Users/Public/Documents/ss.sh"
+untuk "/c/Users/Public/Documents/serveopc.sh" ganti dengan lokasi serveopc berada
