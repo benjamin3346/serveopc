@@ -6,3 +6,4 @@ untuk menyembunyikan jendela cmd serveopc.bat
 
 
 agar script serveo pc berjalan otomatis saat windows booting maka buatkan shortcut hidenserveopc.vbs di SHELL:STARTUP
+sebelum membuat shortcut di shell:startup maka ketiga file tadi di tempatkan ke satu folder yang sama
