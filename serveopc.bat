@@ -24,7 +24,7 @@ echo [+] Koneksi tersedia, jalankan Serveo
 if exist "%LOGFILE%" del "%LOGFILE%"
 
 :: Jalankan Serveo
-cscript //nologo "%SCRIPT_DIR%serveoserver.vbs"
+cscript //nologo "%SCRIPT_DIR%hidencmd.vbs"
 
 
 :: Tunggu 5 detik agar Serveo berjalan
